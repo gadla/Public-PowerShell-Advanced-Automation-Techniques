@@ -4,9 +4,9 @@
 
 # Creating PsCustomObject Old and not preferred Method 
 $props = @{
-    Name = 'Gadi'
-    age = 48
-    Planet = 'Earth'
+    Name      = 'Gadi'
+    age       = 48
+    Planet    = 'Earth'
     birthdate = Get-Date -Date "1974-11-23"
 }
 $person = New-Object -TypeName pscustomobject -Property $props
@@ -132,6 +132,14 @@ Say-Hello -SpecificPerson $person
 
 #endregion
 
+# Changing our default output view
+
+[string[]]$defaultDisplaySet = 'Name', 'Age', 'Title'
+$defaultDisplayPropertySet = [System.Management.Automation.PSPropertySet]::new('DefaultDisplayPropertySet', $defaultDisplaySet)
+$psStandardMembers = [System.Management.Automation.PSMemberInfo[]]@($defaultDisplayPropertySet)
+Add-Member -InputObject $person -MemberType MemberSet -Name PSStandardMembers -Value $psStandardMembers
+
+Write-Output $person
 
 ##########################################################################################
 ####                                 Exporting PsCustomObject                     ########
