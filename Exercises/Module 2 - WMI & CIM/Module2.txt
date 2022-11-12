@@ -1,0 +1,11 @@
+write commands that collects the following information:
+
+BIOS Serial Number           (Hint Win32_BIOS class)
+Operating System             (Hint Win32_OperatingSystem class)
+Computer Model               (Hint Win32_ComputerSystem class)
+Manufacturer                 (Hint Win32_ComputerSystem)
+Memory (value will be in GB) (Hint Win32_ComputerSystem) 
+
+write using WMI and CIM
+
+
