@@ -76,6 +76,8 @@ Open LAB 1 and log on to the vm "WIN10 (WDT)"
 ---
 
 
+
+
 ## Exercise 2: Querying information by using CIM
 
 #### Task 1: Query user accounts 
