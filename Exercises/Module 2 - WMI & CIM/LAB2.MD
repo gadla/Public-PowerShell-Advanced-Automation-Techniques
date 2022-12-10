@@ -139,7 +139,7 @@ Open LAB 1 and log on to the vm "WIN10 (WDT)"
 3.  Leave the Windows PowerShell console open for the next exercise.
 ```
 #### Results: After completing this exercise, you should have queried repository classes by using CIM commands.
-
+---
 
 
 ## Exercise 3: Invoking methods
