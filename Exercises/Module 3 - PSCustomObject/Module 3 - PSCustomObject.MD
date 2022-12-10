@@ -3,7 +3,7 @@
 ---
 ### Function structure:
 ---
-function Get-ComputerInfo {
+function Get-ComputerInfo {S
     param(...
 }
 
