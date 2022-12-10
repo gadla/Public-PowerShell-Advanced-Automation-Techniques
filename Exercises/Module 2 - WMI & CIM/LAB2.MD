@@ -73,7 +73,7 @@ Open LAB 1 and log on to the vm "WIN10 (WDT)"
 ```
 
 #### Results: After completing this exercise, you should have queried repository classes by using WMI commands.
-
+---
 
 
 ## Exercise 2: Querying information by using CIM
