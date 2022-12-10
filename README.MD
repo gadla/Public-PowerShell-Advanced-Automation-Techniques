@@ -2,23 +2,39 @@
 
 ## Agenda
 
-### Module 1 - PowerShell foundation workshop recap 
+1. [Module 1: PowerShell foundation workshop recap]#module-1---powershell-foundation-workshop-recap)
+1. [Module 2: WMI & CIM](#module-2-wmi--cim)
+1. [Module 3: PSCustomObject](#module-3-pscustomobject)
+1. [Module 4: Advanced Functions](#module-4-advanced-functions)
+1. [Module 5: Debugging](#module-5-debugging)
+1. [Module 6: Error Handeling](#module-6-error-handeling)
+1. [Module 7: Introduction to GIT](#module-7-git)
+1. [Module 8: PowerShell Jobs](#module-8-powershell-jobs)
+----
+## Prerequisites
 
-    1.  Object Model
-    2.  Identify Properties and Methods for an Object
-    3.  Variables
-    4.  Pipeline Introduction
-    5.  Pipeline Object Manipulation
-    6.  Import/Export cmdlets
-    7.  Cmdlets and Pipeline Variable
-    8.  Foreach-Object & Where-Object
-    9.  Pipeline Processing
-    10. Pipeline Input
-    11. Functions & Parameters
-    12. Scripts & Script Blocks
-    13. Execution Policies
-    14. Arrays and Hash Tables
-    15. PowerShell Remoting Basics
+1. All participants `should` be graduates of the workshop `Powershell Foundation` `(Or have the equivilant knowledge)`
+2. All Participants `should` have PowerShell experience
+
+
+
+### Module 1: PowerShell foundation workshop recap 
+
+ 1.  Object Model
+ 2.  Identify Properties and Methods for an Object
+ 3.  Variables
+ 4.  Pipeline Introduction
+ 5.  Pipeline Object Manipulation
+ 6.  Import/Export cmdlets
+ 7.  Cmdlets and Pipeline Variable
+ 8.  Foreach-Object & Where-Object
+ 9.  Pipeline Processing
+ 10. Pipeline Input
+ 11. Functions & Parameters
+ 12. Scripts & Script Blocks
+ 13. Execution Policies
+ 14. Arrays and Hash Tables
+ 15. PowerShell Remoting Basics
 
 ### Module 2: WMI & CIM
 
