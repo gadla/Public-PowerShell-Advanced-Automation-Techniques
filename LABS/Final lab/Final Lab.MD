@@ -12,20 +12,20 @@
     1.6 Memory (value will be in GB) (Hint Win32_ComputerSystem) 
 
 2. The function will recieve the following parameters:
-    2.1 Computername - the name of the computer/computers that the function will connect to
-	  This will be a positional parameter (in position 0)
-	  Make sure that the parameter $ComputerName can accept pipeline parameters (ByValue & ByPropertyName)
-        Do not allow null or empty strings (Hint help about_Functions_Advanced_Parameters -ShowWindow)
-    2.2 QueryType    - CIM / WMI providers to retrieve information	
-	  This will be a ValidateSet parameter with the values WMI and CIM.
-All parameters will:
+    2.1 Computername - the name of the computer/computers that the function will connect to This will be a positional parameter (in position 0)
+    Make sure that the parameter $ComputerName can accept pipeline parameters (ByValue & ByPropertyName)
+    Do not allow null or empty strings (Hint help about_Functions_Advanced_Parameters -ShowWindow)
+    2.2 QueryType    - CIM / WMI providers to retrieve information
+    This will be a ValidateSet parameter with the values WMI and CIM.
+
+All parameters will be:
     1 Required
     2 Include HelpMessage ([Parameter(HelpMessage='MyMessage')]	  
     3 Use the 
 
-3. The results of the function can be piped to export-csv 
+3. The results of the function can be piped to Export-CSV and Out-GridView.
 
-4. The function must include hard type variables
+4. The function must include hard type variables.
 
 5. The function must include commented help section with the following elements:
     5.1 .Synopsis
