@@ -1,8 +1,7 @@
 ﻿# PSLab: Final Lab
 
-## Instuctions
+## Write a function that does the following:
 ```
-Write a function that does the following:
 
 1. Connects to a remote computer(s) and retrieve the following information: 
     1.1 ComputerName
@@ -81,7 +80,7 @@ Get-FinalExercise -ComputerName localhost,127.0.0.1 -QueryType CIM -Verbose -Deb
 
 *** You should get a debug message ***
 
-VERBOSE: Query method is WMI
+VERBOSE: Query method is CIM
 
 ComputerName     : localhost
 BiosSerialNumber : PC2113LH
