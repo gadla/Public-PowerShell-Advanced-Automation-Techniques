@@ -3,17 +3,17 @@
 PowerShell Training Labs: PSCustomObject
 
 ---
-
 ### Function structure:
 ---
 function Get-ComputerInfo {
     param(...
 }
+
 ---
 
 
 ### Sample output:
-
+---
 Get-ComputerInfo
 
 ComputerName     : STUDYROOM
