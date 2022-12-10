@@ -20,7 +20,7 @@ Write a fuction that does the following:
 ### Function structure:
 
 ```
-function Get-ComputerInfo {
+function Get-Module4 {
     param(...
 }
 ```
@@ -29,16 +29,34 @@ function Get-ComputerInfo {
 ### Sample outputs: 
 
 ```
-PS C:\Users\Admin> get-module4
+Get-Module4
 
 cmdlet Get-Module4 at command pipeline position 1
 Supply values for the following parameters:
 (Type !? for Help.)
 param2: !?
-Parameter 2 Help Message
+param2 help message 
 param2: Param2
 Param1 value is:, Param2 value is: Param2
+
+
+Get-Module4 -param2 'Mandatory'
+Param1 value is:, Param2 value is: Mandatory
+
+Get-Module4 -param2 'Mandatory' -param1 'param1'
+Param1 value is:param1, Param2 value is: Mandatory
+
+Get-Module4 -param2 'Mandatory' -param3
+Param1 value is:, Param2 value is: Mandatory
+Param3 is active
+
+
+Get-Module4 -param2 'Mandatory' -Verbose
+VERBOSE: Starting function
+Param1 value is:, Param2 value is: Mandatory
 ```
+
+#### Notice the Help messafe of Parameter 2
 
 ### Hints
 
