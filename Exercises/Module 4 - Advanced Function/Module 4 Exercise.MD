@@ -27,6 +27,7 @@ function Get-Module4 {
 
 
 ### Sample outputs: 
+#### Notice the Help messafe of Parameter 2
 
 ```
 Get-Module4
@@ -56,7 +57,6 @@ VERBOSE: Starting function
 Param1 value is:, Param2 value is: Mandatory
 ```
 
-#### Notice the Help messafe of Parameter 2
 
 ### Hints
 
