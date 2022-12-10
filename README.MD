@@ -1,9 +1,5 @@
 ﻿# PowerShell Advanced Scripting Techniques
 
-PowerShell Training Labs
-
----
-
 ## Agenda
 
 ### Module 1 - PowerShell foundation workshop recap 
@@ -70,4 +66,15 @@ PowerShell Training Labs
     2. Logging into a Git repository
     3. Branch-Merging
 
+
+### PowerShell Jobs 
+
+    1. Overview
+    2. Starting a Background Job
+    3. Working with Job Objects
+    4. Managing Background Jobs
+    5. Remote Background Jobs
+    6. Scheduled Jobs
+    7. Scheduled Tasks
+    8. Scheduled Tasks VS Scheduled Jobs
 
