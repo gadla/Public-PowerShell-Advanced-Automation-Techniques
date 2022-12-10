@@ -16,8 +16,9 @@
 
 ---
 # Prerequisites
-1. All participants `should` be graduates of the workshop **Powershell Foundation** `(Or have the equivilant knowledge)`
-2. All Participants `should` have PowerShell experience
+- All participants `should` be graduates of the workshop **Powershell Foundation** `(Or have the equivilant knowledge)`.
+- All Participants `should` have PowerShell or other scripting language experience.
+   
 
 ---
 # Modules
