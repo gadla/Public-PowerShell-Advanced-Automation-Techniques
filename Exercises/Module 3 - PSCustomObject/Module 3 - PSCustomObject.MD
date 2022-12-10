@@ -1,6 +1,4 @@
-﻿# PowerShell Advanced Scripting Techniques - PSCustomObject
-
-PowerShell Training Labs: PSCustomObject
+﻿# PowerShell Training Labs: PSCustomObject
 
 ---
 ### Function structure:
