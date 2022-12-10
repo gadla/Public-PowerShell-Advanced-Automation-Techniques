@@ -1,4 +1,4 @@
-﻿# PSLab: Loops and Arrays
+﻿# PSLab: PSCustomObject
 
 ### Function structure:
 
