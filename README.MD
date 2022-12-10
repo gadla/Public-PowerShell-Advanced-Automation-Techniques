@@ -27,7 +27,7 @@
     3. How do I use methods in WMI and CIM?
     4. What is the difference between WMI and CIM?
 
-### PSCustomObject
+### Module 3: PSCustomObject
 
     1. What is PSCustomObject?
     2. When shoud I use it?
@@ -36,7 +36,7 @@
     5. Changing our PSCustom types
     6. Exporting and Importing our PSCustomObjects
 
-### Advanced Functions
+### Module 4: Advanced Functions
 
     1. Basic function recap
     2. Scopes
@@ -46,28 +46,28 @@
     6. Cmdlet binding
     7. Streams
 
-### Debugging
+### Module 5: Debugging
 
     1. Syntax errors
     2. Line Break Points
     3. Step over / Step into / Step out
     4. Variable & Command breakpoints
 
-### Error Handeling
+### Module 6: Error Handeling
 
     1. Terminating and Non-Terminating Errors
     2. Working with ErrorRecord Object
     3. Non Terminating Errors Handaling Flow
     4. Terminating Errors (Try/Catch/Finally)
 
-### GIT
+### Module 7: GIT
 
     1. Overview of GIT - Git design
     2. Logging into a Git repository
     3. Branch-Merging
 
 
-### PowerShell Jobs 
+### Module 8: PowerShell Jobs 
 
     1. Overview
     2. Starting a Background Job
