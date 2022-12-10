@@ -10,7 +10,7 @@ Open LAB 1 and log on to the vm "WIN10 (WDT)"
 
 
 
-### Sample outputs: 
+#### Sample outputs: 
 
 ```
 Get-ComputerInfo
