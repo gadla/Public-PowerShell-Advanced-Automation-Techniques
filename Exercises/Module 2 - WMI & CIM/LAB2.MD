@@ -10,19 +10,16 @@ Open LAB 1 and log on to the vm "WIN10 (WDT)"
 
 
 
-#### Sample outputs: 
+#### Task 1: Query IP addresses 
 
 ```
-Get-ComputerInfo
-
-ComputerName     : STUDYROOM
-BiosSerialNumber : PC2113LH
-OperatingSystem  : Microsoft Windows 11 Enterprise
-ComputerModel    : 11JKS14K00
-Memory(GB)       : 15
-
-
-Get-ComputerInfo | Out-GridView
-
-Get-ComputerInfo | Export-Csv -Path MyPath -NoTypeInformation
+1. Open PowerShell **as Administrator**
+2. To find a repository class that lists the IP addresses being used by a computer, 
+   type the following command in the Windows PowerShell console, and then press Enter: 
+       **Get-WmiObject –namespace root\cimv2 –list | Where-Object  {$_.Name –like  '*configuration*'} | Sort Name**
+   Notice the **Win32_NetworkAdapterConfiguration** class
+3. To retrieve all instances of the class showing DHCP IP addresses, type the 
+   following command in the Windows PowerShell console, and then press Enter: 
+       Get-WmiObject –Class 'Win32_NetworkAdapterConfiguration' | Select-object -Property 'IPAddress' -Unique
+   Remember that you can run the first command and pipe its output to Get-Member to see the properties that are available.
 ```
