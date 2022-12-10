@@ -2,14 +2,17 @@
 
 ## Agenda
 
-1. [Module 1: PowerShell foundation workshop recap]#module-1---powershell-foundation-workshop-recap)
-1. [Module 2: WMI & CIM](#module-2-wmi--cim)
-1. [Module 3: PSCustomObject](#module-3-pscustomobject)
-1. [Module 4: Advanced Functions](#module-4-advanced-functions)
-1. [Module 5: Debugging](#module-5-debugging)
-1. [Module 6: Error Handeling](#module-6-error-handeling)
-1. [Module 7: Introduction to GIT](#module-7-git)
-1. [Module 8: PowerShell Jobs](#module-8-powershell-jobs)
+- [PowerShell Advanced Scripting Techniques](#powershell-advanced-scripting-techniques)
+  - [Agenda](#agenda)
+  - [Prerequisites](#prerequisites)
+    - [Module 1: PowerShell foundation workshop recap](#module-1-powershell-foundation-workshop-recap)
+    - [Module 2: WMI \& CIM](#module-2-wmi--cim)
+    - [Module 3: PSCustomObject](#module-3-pscustomobject)
+    - [Module 4: Advanced Functions](#module-4-advanced-functions)
+    - [Module 5: Debugging](#module-5-debugging)
+    - [Module 6: Error Handeling](#module-6-error-handeling)
+    - [Module 7: GIT](#module-7-git)
+    - [Module 8: PowerShell Jobs](#module-8-powershell-jobs)
 ----
 ## Prerequisites
 
