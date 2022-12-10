@@ -56,3 +56,20 @@ Open LAB 1 and log on to the vm "WIN10 (WDT)"
          Get-WmiObject –class 'Win32_ComputerSystem' | Select-Object -Property Manufacturer,Model,@{n='RAM';e={$PSItem.TotalPhysicalMemory}}
          Get-WmiObject –class 'Win32_ComputerSystem' | Select-Object -Property Manufacturer,Model,@{n='RAM';e={[int]($PSItem.TotalPhysicalMemory / 1gb)}}
 ```
+
+#### Task 4: Query service information 
+
+```
+1. To find a repository class that contains information about services, type the 
+   following command in the Windows PowerShell console, and then press Enter: 
+         Get-WmiObject –namespace 'root\cimv2' –list | Where-Object {$_.Name –like '*service*'}  | Sort-Object -Property Name
+   Notice the Win32_Service class.
+2.  To display a list of instance properties and values, type the following command 
+    in the Windows PowerShell console, and then press Enter: 
+         Get-WmiObject –Class 'Win32_Service' | Format-List -Property *
+3.  To display the specified information, type the following command in the 
+    Windows PowerShell console, and press Enter: 
+         Get-WmiObject –Class 'Win32_Service' –Filter "Name LIKE 'S%'" | Select-Object -Property Name,State,StartName
+```
+
+#### Results: After completing this exercise, you should have queried repository classes by using WMI commands.
