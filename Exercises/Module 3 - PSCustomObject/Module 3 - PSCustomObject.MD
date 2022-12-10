@@ -19,4 +19,9 @@ BiosSerialNumber : PC2113LH
 OperatingSystem  : Microsoft Windows 11 Enterprise
 ComputerModel    : 11JKS14K00
 Memory(GB)       : 15
+
+
+Get-ComputerInfo | Out-GridView
+
+Get-ComputerInfo | Export-Csv -Path MyPath -NoTypeInformation
 ```
