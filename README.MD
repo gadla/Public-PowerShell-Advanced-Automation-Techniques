@@ -1,8 +1,8 @@
-﻿# PowerShell Advanced Scripting Techniques
+﻿# PowerShell Advanced Automation Techniques
 
 
 
-- [PowerShell Advanced Scripting Techniques](#powershell-advanced-scripting-techniques)
+- [PowerShell Advanced Automation Techniques](#powershell-advanced-scripting-techniques)
 - [Prerequisites](#prerequisites)
 - [Modules](#modules)
   - [Module 1: PowerShell foundation workshop recap](#module-1-powershell-foundation-workshop-recap)
