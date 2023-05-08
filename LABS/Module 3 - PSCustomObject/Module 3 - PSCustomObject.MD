@@ -86,6 +86,7 @@ Step 5:
 
 Step 6:
 * For each process in `$report`, add a new property named `RunTimeHours` and calculate the number of minutes that have elapsed since the process was started. 
+* Round up the result to the next integer (use **[math]::Ceiling()** static function to do so).
 * Sort the `$report` object by the `RunTime` property in descending order.
 
 Step 7:
