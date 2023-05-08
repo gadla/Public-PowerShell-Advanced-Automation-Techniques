@@ -1,21 +1,25 @@
 ﻿# PSLab: Advanced Functions
 
 ## Excercise instructions
+```
+Define an advanced function with the following requirements:
+1. Supports [CmdletBinding()]
+   - the Cmdletbinding should include HelpURI
+   - the Cmdletbinding should include PositionalBinding (Set to $false)
 
+2. Accepts 3 parameters ($Param1, $Param2, $Param3).
+   - All parameters should be strong typed.
+   - $param1 and $param2 will be string parameters.
+   - Only $Param2 should be mandatory ([Parameter(Mandatory = $true)]).
+   - $Param1 and $Param2 should include help messages ([Parameter(HelpMessage = 'Message')]).
+   - $Param3 should be a switch parameter.
+
+3. Displays the value of $Param1 and $Param2.
+4. If $param3 is on, output a message indicating that it is active.
+5. Write a message using Write-Verbose to indicate the start of the function.
+6. Write a message using Write-Debug to output a debug message.
 ```
-Write a fuction that does the following:
-1. Supports [Cmdletbinding()]
-    1.1 the Cmdletbinding should include HelpURI
-    1.1 the Cmdletbinding should include PositionalBinding (Set to $false)
-2. Accepts 3 parameters ($Param1, $Param2, $Param3) $param1 and $param2 will be string parameters (strong types)
-3. Only Param2 should be mandatory ([Parameter(mandatory)])
-4. $Param1 and $Param2 should include help message ([Parameter(HelpMessage = 'Message')])
-5. $Param3 should be a switch parameter
-6. The function will display the value of $Param1 and $Param2
-7. If $param3 is on there will be another message
-8. Write a message using Write-verbose
-9. Write a message using Write-debug
-```
+
 
 ### Function structure:
 
@@ -27,7 +31,7 @@ function Get-Module4 {
 
 
 ### Sample outputs: 
-#### Notice the Help messafe of Parameter 2
+#### Notice the Help message of Parameter 2
 
 ```
 Get-Module4
