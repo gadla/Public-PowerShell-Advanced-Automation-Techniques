@@ -2,7 +2,8 @@
 
 ## Excercise instructions
 ```
-Debugging PowerShell scripts is an important skill for any PowerShell developer or administrator. In this lab exercise, you will learn how to use the PowerShell ISE debugger to set line breakpoints, step through code, and examine variables.
+Debugging PowerShell scripts is an important skill for any PowerShell developer or administrator. 
+In this lab exercise, you will learn how to use the PowerShell ISE debugger to set line breakpoints, step through code, and examine variables.
 ```
 
 

@@ -14,3 +14,4 @@ function  Demo-Function {
 Write-Host "This is a demo script" -ForegroundColor Green -BackgroundColor Black
 Write-Host "This is a another command in yourdemo script" -ForegroundColor Green -BackgroundColor Black
 Get-Demo -Repetition 2
+Write-Host "The script has ended." -ForegroundColor Green -BackgroundColor Black
