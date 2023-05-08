@@ -89,3 +89,32 @@ This is because the F11 key is the Step Into key. It will execute the current li
 This is because the Shift + F11 key is the Step Out key. It will execute the current line and then stop at the next line. Since line 16 is a function call, it will execute the function and then stop at the first line of the function. The Shift + F11 key will then execute the rest of the function and stop at the line after the function call.
 
 ```
+## Variable BreakPoint
+```
+1. Verify that there are no breakpoints set in the script.
+2. Verify that you are in the C:\PSLabs folder.
+3. Run the command: 
+    Set-PSBreakpoint -Variable Repetition -Action {
+    # Write the value of the variable to a file
+    $value = Get-Variable -Name Repetition -ValueOnly
+    $value = "Current value of Repetition is: $value"
+    $value | Out-File -FilePath C:\pslabs\VariableBreakPoint.txt -Append
+    }
+4. Run the script by pressing F5 or clicking on the green Run Script button on the toolbar. The script should run and complete.
+5. Open the file C:\pslabs\VariableBreakPoint.txt and verify that the value of the Repetition variable was written to the file.
+6. Clear all breakpoints by running the command: Get-PSBreakpoint | Remove-PSBreakpoint in the console pane.
+```
+
+## Command BreakPoint
+```
+1. Verify that there are no breakpoints set in the PowerShell console by running the command: Get-PSBreakpoint.
+2. Verify that you are in the C:\PSLabs folder.
+3. Run the command: 
+   Set-PSBreakpoint -Command "Demo-Function" -Action {
+     # Write the output of the command to a file
+     $output = "$(get-date -Format "dd-MM-yyyy:ss") - Demo-Function was called"
+     $output | Out-File -FilePath C:\PSLabs\CommandBreakPoint.txt -Append
+    }
+4. Run the command Demo-Function.
+5. Check the file C:\PSLabs\CommandBreakPoint.txt and verify that the output of the Demo-Function was written to the file.
+```
