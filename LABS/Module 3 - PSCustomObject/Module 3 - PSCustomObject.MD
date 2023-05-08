@@ -1,5 +1,5 @@
 ﻿# PSLab: PSCustomObject
-**Excersise 1:**
+### **Excersise 1:**
 ### Function structure:
 
 ```
@@ -27,7 +27,7 @@ Get-ComputerInfo | Export-Csv -Path MyPath -NoTypeInformation
 ```
 
 
-**Excersise 2:**
+### **Excersise 2:**
 ### Function structure:
 
 ```
