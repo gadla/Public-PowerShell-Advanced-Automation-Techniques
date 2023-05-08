@@ -2,7 +2,7 @@
 
 ### Function structure:
 
-```
+```PowerShell
 function Get-ComputerInfo {
     param(...
 }
@@ -11,7 +11,7 @@ function Get-ComputerInfo {
 
 ### Sample outputs: 
 
-```
+```PowerShell
 Get-ComputerInfo
 
 ComputerName     : STUDYROOM

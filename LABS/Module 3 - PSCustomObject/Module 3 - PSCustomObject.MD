@@ -2,7 +2,7 @@
 ### **Excersise 1:**
 ### Function structure:
 
-```
+```PowerShell
 function Get-ComputerInfo {
     param(...
 }
@@ -11,7 +11,7 @@ function Get-ComputerInfo {
 
 ### Sample outputs: 
 
-```
+```PowerShell
 Get-ComputerInfo
 
 ComputerName     : STUDYROOM
@@ -30,7 +30,7 @@ Get-ComputerInfo | Export-Csv -Path MyPath -NoTypeInformation
 ### **Excersise 2:**
 ### Function structure:
 
-```
+```PowerShell
 function Get-ProcessReport {
     param(...
 }
@@ -39,7 +39,7 @@ function Get-ProcessReport {
 
 ### Sample outputs: 
 
-```
+```PowerShell
 PS C:\PoweShell> C:\temp\PsCustomObject_Excercise2.ps1
 
 

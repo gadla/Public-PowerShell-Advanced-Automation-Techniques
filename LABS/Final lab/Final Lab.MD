@@ -20,7 +20,7 @@
 
 All parameters will be:
     1 Required
-    2 Include HelpMessage [Parameter(HelpMessage='MyMessage')]	  
+    2 Include HelpMessage ([Parameter(HelpMessage='MyMessage')]	  
     3 Use the 
 
 3. The results of the function can be piped to Export-CSV and Out-GridView.

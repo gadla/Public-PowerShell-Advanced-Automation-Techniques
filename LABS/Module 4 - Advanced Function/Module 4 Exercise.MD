@@ -1,7 +1,7 @@
 ﻿# PSLab: Advanced Functions
 
 ## Excercise instructions
-```
+```PowerShell
 Define an advanced function with the following requirements:
 1. Supports [CmdletBinding()]
    - the Cmdletbinding should include HelpURI
@@ -23,7 +23,7 @@ Define an advanced function with the following requirements:
 
 ### Function structure:
 
-```
+```PowerShell
 function Get-Module4 {
     param(...
 }
@@ -33,7 +33,7 @@ function Get-Module4 {
 ### Sample outputs: 
 #### Notice the Help message of Parameter 2
 
-```
+```PowerShell
 Get-Module4
 
 cmdlet Get-Module4 at command pipeline position 1
@@ -64,7 +64,7 @@ Param1 value is:, Param2 value is: Mandatory
 
 ### Hints
 
-```
+```PowerShell
 1. Use this command to get help about the [Parameter] attribute
     help about_ | Where-Object {$PSItem.name -like '*adv*param*'}| help -ShowWindow
 
