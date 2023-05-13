@@ -1,15 +1,8 @@
-﻿# PowerShell Advanced Automation Techniques
-
-# PowerShell Advanced Scripting Techniques
+﻿# PowerShell Advanced Scripting Techniques
 <img src="Images/PowerShellSuperHero.jpg" alt="PowerShell Advanced Scripting Techniques" style="width:50%;height:auto;" />
 
 
-<<<<<<< HEAD
 - [PowerShell Advanced Scripting Techniques](#powershell-advanced-scripting-techniques)
-- [PowerShell Advanced Scripting Techniques](#powershell-advanced-scripting-techniques-1)
-=======
-- [PowerShell Advanced Automation Techniques](#powershell-advanced-scripting-techniques)
->>>>>>> eb10e818d5a11d9f23cb0f8484c714317914b486
 - [Prerequisites](#prerequisites)
 - [Modules](#modules)
   - [Module 1: `PowerShell foundation workshop recap `](#module-1-powershell-foundation-workshop-recap-)
