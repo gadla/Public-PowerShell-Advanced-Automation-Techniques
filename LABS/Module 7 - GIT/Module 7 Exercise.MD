@@ -1,4 +1,12 @@
 ﻿# Module 7 - GIT & GITHUB
+<div>
+    <img src="https://github.com/gadla/Public-PowerShell-Advanced-Automation-Techniques/blob/master/Images/git.jpg" alt="git" width="24%" />
+    <img src="https://github.com/gadla/Public-PowerShell-Advanced-Automation-Techniques/blob/master/Images/github.jpg" alt="github" width="20%" />
+</div>
+
+
+<br>
+<br>
 
 ## Task 1: Install your local GIT
 
