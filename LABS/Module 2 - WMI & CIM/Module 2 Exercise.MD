@@ -3,7 +3,7 @@
 ### Function structure:
 
 ```PowerShell
-function Get-ComputerInfo {
+function Get-ComputerInfomation {
     param(...
 }
 ```
@@ -12,7 +12,7 @@ function Get-ComputerInfo {
 ### Sample outputs: 
 
 ```PowerShell
-Get-ComputerInfo
+Get-ComputerInformation
 
 ComputerName     : STUDYROOM
 BiosSerialNumber : PC2113LH
