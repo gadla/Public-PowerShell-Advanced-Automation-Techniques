@@ -1,6 +1,6 @@
 # This script contains some simple PowerShell commands that we will use for debugging practice.
 
-function  Demo-Function {
+function  Get-Demo {
     param (
         [int]$Repetition = 2
     )
