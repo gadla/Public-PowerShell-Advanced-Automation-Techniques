@@ -83,7 +83,7 @@ $Error[0]
 
 $ErrorActionPreference
 remove-item c:\nonexist.yahoo
-$ErrorActionPreference = 'Break'
+$ErrorActionPreference = 'Stop'
 remove-item c:\nonexist.yahoo
 $ErrorActionPreference = 'SilentlyContinue'
 remove-item c:\nonexist.yahoo
