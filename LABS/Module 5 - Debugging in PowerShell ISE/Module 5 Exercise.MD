@@ -53,7 +53,7 @@ Copy the file to the C:\PSLabs drive on your computer (create the folder if it d
 1. Verify that there are no breakpoints set in the script.
 2. Create a breakpoint at line 16. The line should be bold with red color.
 3. Run the script by pressing F5 or clicking on the green Run Script button on the toolbar. The script should run and stop at line 16.
-4. Press the F11 key, the script should continue into the function and stop at line 7.
+4. Press the F11 key untill you get to line 7.
 5. At the console pane (the blue pane at the bottom of the PowerShell ISE window), type $Repetition and press Enter. The value of the $Repetition variable should be displayed.
 6. Continue to run the script with F11, check priordically the value of the $Repetition variable.
 7. Clear all breakpoints by Debug and then Remove All Breakpoints from the menu.
