@@ -92,7 +92,7 @@ Get-Trap
 #throw example
 function Get-ThrowExample {
     param(
-        [string]$ServiceName = $(throw 'You must specify a Computername parameter value')
+        [string]$ServiceName = $(throw 'You must specify a ServiceName parameter value')
     )
     Get-Service -Name $ServiceName
 }
